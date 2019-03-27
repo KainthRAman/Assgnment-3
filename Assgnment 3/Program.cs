@@ -109,12 +109,19 @@ namespace ConsoleApp1
                 // TO DO : sort the Stack
             }
 
-            void IDataStructure.Sort()
+            public void Run()
             {
-                throw new NotImplementedException();
+                for (int i = 0; i < 20; i++)
+                {
+                    s1.Push(new Student());
+                }
+
+                Sort1 = new Sort_DataStructure(Sorter);
             }
+
+            public void Sort() { }
         }
 
-     }
+    }
 
 
