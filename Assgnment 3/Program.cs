@@ -49,3 +49,14 @@ namespace ConsoleApp1
                 Console.WriteLine(e.Message);
             }
         }
+        String[] names = new String[5] { "Bill", "Mary", "Laura", "Sam", "Steve" };
+        Random r1;
+
+        public Student()
+        {
+            r1 = new Random();
+            Student_name = names[r1.Next(0, 4)];
+            StudentID = Convert.ToString(r1.Next(1000, 9999));
+            StudentGPA = Convert.ToDouble(r1.Next(1, 99));
+        }
+
