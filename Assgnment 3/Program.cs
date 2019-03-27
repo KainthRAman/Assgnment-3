@@ -4,12 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assgnment_3
+namespace ConsoleApp1
 {
+    public delegate void Sort_DataStructure();
+
+
     class Program
     {
         static void Main(string[] args)
         {
+            Student a = new Student();
+            a.Announcement();
+
         }
     }
 }
