@@ -59,4 +59,23 @@ namespace ConsoleApp1
             StudentID = Convert.ToString(r1.Next(1000, 9999));
             StudentGPA = Convert.ToDouble(r1.Next(1, 99));
         }
+        public double AverageStudentGPA()
+        {
+            // TO DO: implement the algorithm to calculate the Students' average GPA
+            return 0;
+        }
+    }
+    public interface IDataStructure
+    {
+        void Sort();
+    }
+
+    class DataStructureQueue : IDataStructure
+    {
+        // the QUEUE holds the classes (that is classroom of students!)
+        // TO DO: insert the contents of the Data File: Classroom Data Set 
+
+        public Queue q1 = new Queue();
+
+        Sort_DataStructure Sort1;
 
