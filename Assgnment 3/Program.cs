@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -78,4 +80,26 @@ namespace ConsoleApp1
         public Queue q1 = new Queue();
 
         Sort_DataStructure Sort1;
+        public void Sorter()
+        {
+            // TO DO : sort the Queue 
+        }
+
+        public void Run()
+        {
+            for (int i = 0; i < 20; i++)
+            {
+                q1.Enqueue(new Student());
+            }
+            Sort1 = new Sort_DataStructure(Sorter);
+        }
+        public void Sort()
+        {
+
+        }
+
+    }
+
+}
+
 
