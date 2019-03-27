@@ -97,9 +97,24 @@ namespace ConsoleApp1
         {
 
         }
+        class DataStructureStack : IDataStructure
+        {
+            // the STACK holds the Students
+            public Stack s1 = new Stack();
 
-    }
+            Sort_DataStructure Sort1;
 
-}
+            public void Sorter()
+            {
+                // TO DO : sort the Stack
+            }
+
+            void IDataStructure.Sort()
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+     }
 
 
